@@ -1,0 +1,33 @@
+
+.waterfall-container.data-v-4440fd9a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+.waterfall-item.data-v-4440fd9a {
+  /* margin-bottom: 16px; */
+  width: calc(50% - 20rpx);
+  background-color: #fff;
+  border-radius: 10rpx;
+  overflow: hidden;
+  /* background-color: #996; */
+  padding: 10rpx;
+  box-sizing: border-box;
+  margin: 10rpx;
+}
+.waterfall-img.data-v-4440fd9a {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.waterfall-title.data-v-4440fd9a {
+  /* padding: 8px; */
+  font-size: 14px;
+  /* font-weight: bold; */
+}
+.waterfall-desc.data-v-4440fd9a {
+  /* padding: 8px; */
+  font-size: 12px;
+  color: #666;
+}
+

@@ -1,0 +1,1 @@
+<view class="container"><block wx:for="{{basedata}}" wx:for-item="item" wx:for-index="i" wx:key="i"><view class="item-box"><view class="title">{{''+item.title+''}}</view><view class="content"><rich-text nodes="{{item.content}}"></rich-text></view><view class="date">{{''+item.date+''}}</view></view></block></view>

@@ -1,0 +1,109 @@
+{
+  "pages": [{
+    "path": "pages/home/home",
+    "style": {
+      // "navigationBarTitleText": "",
+      // "enablePullDownRefresh": false
+    }
+
+  }, {
+    "path": "pages/cate/cate",
+    "style": {
+      "navigationBarTitleText": "分类",
+      "enablePullDownRefresh": false
+    }
+
+  }, {
+    "path": "pages/collect/collect",
+    "style": {
+      "navigationBarTitleText": "收藏",
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/my/my",
+    "style": {
+      "navigationBarTitleText": "我的",
+      "enablePullDownRefresh": false
+    }
+
+  }],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+      "path": "col_list/col_list",
+      "style": {
+        "navigationBarTitleText": "藏品列表",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "col_detail/col_detail",
+      "style": {
+        "navigationBarTitleText": "详情",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "search/search",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "login/login",
+      "style": {
+        "navigationBarTitleText": "登录|注册",
+        "enablePullDownRefresh": false
+      }
+    }, 
+    {
+      "path": "announment/announment",
+      "style": {
+        "navigationBarTitleText": "公告",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "feedback/feedback",
+      "style": {
+        "navigationBarTitleText": "反馈",
+        "enablePullDownRefresh": false
+      }
+
+    }]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "线上博物馆",
+    "navigationBarBackgroundColor": "#8a2c2d",
+    "backgroundColor": "#8a2c2d",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#8a2c2d",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "static/tab-icon/home.png",
+      "selectedIconPath": "static/tab-icon/home-active.png"
+    }, {
+      "pagePath": "pages/cate/cate",
+      "text": "分类",
+      "iconPath": "static/tab-icon/cate.png",
+      "selectedIconPath": "static/tab-icon/cate-active.png"
+    }, {
+      "pagePath": "pages/collect/collect",
+      "text": "收藏",
+      "iconPath": "static/tab-icon/collect.png",
+      "selectedIconPath": "static/tab-icon/collect-active.png"
+    }, {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "static/tab-icon/my.png",
+      "selectedIconPath": "static/tab-icon/my-active.png"
+    }]
+  }
+}

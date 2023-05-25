@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.login-box {
+  padding: 10px;
+  margin: 10px;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+.text {
+  width: 25%;
+  color: #777;
+  font-size: 32rpx;
+}
+.input {
+  border-bottom: 1px solid #333;
+  padding: 10rpx;
+  margin-bottom: 10rpx;
+  width: 75%;
+}
+.btn {
+  padding: 10px;
+}
+.goto {
+  margin-top: 20rpx;
+}
+

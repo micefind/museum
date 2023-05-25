@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.uni-section {
+  background-color: #fff;
+}
+.uni-section .uni-section-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 10px;
+  font-weight: normal;
+}
+.uni-section .uni-section-header__decoration {
+  margin-right: 6px;
+  background-color: #2979ff;
+}
+.uni-section .uni-section-header__decoration.line {
+  width: 4px;
+  height: 12px;
+  border-radius: 10px;
+}
+.uni-section .uni-section-header__decoration.circle {
+  width: 8px;
+  height: 8px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.uni-section .uni-section-header__decoration.square {
+  width: 8px;
+  height: 8px;
+}
+.uni-section .uni-section-header__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: #333;
+}
+.uni-section .uni-section-header__content .distraction {
+  flex-direction: row;
+  align-items: center;
+}
+.uni-section .uni-section-header__content-sub {
+  margin-top: 2px;
+}
+.uni-section .uni-section-header__slot-right {
+  font-size: 14px;
+}
+.uni-section .uni-section-content {
+  font-size: 14px;
+}
+

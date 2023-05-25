@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-search": "/components/my-search/my-search",
+    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+  }
+}

@@ -1,0 +1,1 @@
+.my-search-container{height:50px;padding:0 10px;display:flex;align-items:center}.my-search-box{height:36px;background-color:#fff;width:100%;display:flex;align-items:center;justify-content:center}.my-search-box .placeholder{font-size:15px;margin-left:5px}

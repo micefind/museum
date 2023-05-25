@@ -1,0 +1,1 @@
+<view class="container"><block wx:for="{{feedbackList}}" wx:for-item="item" wx:for-index="i" wx:key="i"><view class="item-box"><view class="title">{{''+item.timestamp+''}}</view><view class="content">{{''+item.content+''}}</view><view class="date">{{''+item.user_name+''}}</view></view></block></view>

@@ -1,0 +1,88 @@
+
+.container.data-v-2e1289ba {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image.data-v-2e1289ba {
+  width: 100%;
+}
+.info.data-v-2e1289ba {
+  width: 95%;
+  margin-top: 20rpx;
+  margin-bottom: 120rpx;
+}
+.source.data-v-2e1289ba {
+  font-size: 28rpx;
+  color: #999;
+}
+.base.data-v-2e1289ba {
+  font-size: 28rpx;
+  color: #333;
+}
+.title.data-v-2e1289ba {
+  font-size: 36rpx;
+  margin-top: 10rpx;
+}
+.desc.data-v-2e1289ba {
+  /* text-align-last: justify; */
+  font-size: 32rpx;
+  margin: 20rpx 0;
+  line-height: 48rpx;
+}
+.museum-detail__footer.data-v-2e1289ba {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10rpx;
+  background-color: #f7f7fa;
+  border-top: 1px solid #ccc;
+}
+.museum-detail__buttons.data-v-2e1289ba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.museum-detail__button.data-v-2e1289ba {
+  border: none;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  color: #fff;
+  cursor: pointer;
+}
+.museum-detail__button--collection.data-v-2e1289ba {
+  background-color: #ff6633;
+}
+.museum-detail__button--feedback.data-v-2e1289ba {
+  background-color: #8a2c2d;
+}
+.museum-detail__feedback-form.data-v-2e1289ba {
+  margin-top: 20rpx;
+  padding: 20rpx 10rpx 0 10rpx;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.museum-detail__feedback-input.data-v-2e1289ba {
+  box-sizing: border-box;
+  width: 100%;
+  height: 200rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid #ccc;
+  padding: 10rpx;
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  background-color: #f5f5f5;
+}
+.museum-detail__feedback-submit.data-v-2e1289ba {
+  border: none;
+  font-size: 28rpx;
+  padding: 10rpx 20rpx;
+  color: #333;
+  background-color: #fff;
+  cursor: pointer;
+}
+
